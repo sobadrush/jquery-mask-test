@@ -8,6 +8,7 @@
     left: 0;
     display: none;
     text-align: center;
+    z-index: 2147483647; /* google z-index max*/
   }
 
 .myMaskDiv > img {
@@ -22,3 +23,5 @@
     right: 0;
     margin: auto;
   }
+
+  
