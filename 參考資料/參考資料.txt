@@ -1,5 +1,6 @@
 
 【jQuery.ajaxSetup() 方法设置全局 AJAX 默认选项】
+【ajaxSetup() 對 $.post $.get 無作用 】
 http://www.w3school.com.cn/jquery/ajax_ajaxsetup.asp
 https://blog.csdn.net/szstephenzhou/article/details/39318415
 
@@ -21,6 +22,6 @@ https://blog.csdn.net/weixin_35751376/article/details/70314831
 【jqeury Error function】
 https://stackoverflow.com/questions/6792878/jquery-ajax-error-function
 
-【】
+
 【】
 【】
