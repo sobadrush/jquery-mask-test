@@ -72,31 +72,9 @@
         $("#btnMask").click((e) => {
             e.preventDefault();
 
-            $.get("https://works.ioa.tw/weather/api/all.json", function(cbData){
-                //  console.log(cbData);
+            // $.get("https://works.ioa.tw/weather/api/all.json", function(cbData){
+            //     //  console.log(cbData);
                 
-                var frag = $(document.createDocumentFragment())
-                $.each(cbData, (idx, elem) => {
-                    console.log(idx, elem);
-                    let td1 = $('<td/>').append(idx);
-                    let td2 = $('<td/>').append(elem.id);
-                    let td3 = $('<td/>').append(elem.name);
-                    let td4 = $('<td/>').append(elem.towns.length);
-                    let myTr = $('<tr/>').append(td1).append(td2).append(td3).append(td4)
-                    frag.append(myTr);
-                });
-                $('#myTable').append(frag);
-                
-            },'json');
-
-            // $.ajax({
-            //     type: "GET",
-            //     url: "https://works.ioa.tw/weather/api/all.json",
-            //     dataType: "json",
-            //     contentType: "application/json; charset=utf-8",
-            //     success: function(cbData) {
-            //     // console.log(cbData);
-
             //     var frag = $(document.createDocumentFragment())
             //     $.each(cbData, (idx, elem) => {
             //         console.log(idx, elem);
@@ -109,8 +87,30 @@
             //     });
             //     $('#myTable').append(frag);
                 
-            //     }
-            // });
+            // },'json');
+
+            $.ajax({
+                type: "GET",
+                url: "https://works.ioa.tw/weather/api/all.json",
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function(cbData) {
+                // console.log(cbData);
+
+                    var frag = $(document.createDocumentFragment())
+                    $.each(cbData, (idx, elem) => {
+                        console.log(idx, elem);
+                        let td1 = $('<td/>').append(idx);
+                        let td2 = $('<td/>').append(elem.id);
+                        let td3 = $('<td/>').append(elem.name);
+                        let td4 = $('<td/>').append(elem.towns.length);
+                        let myTr = $('<tr/>').append(td1).append(td2).append(td3).append(td4)
+                        frag.append(myTr);
+                    });
+                    $('#myTable').append(frag);
+                
+                }
+            });
         });
 
         /*************************************************
