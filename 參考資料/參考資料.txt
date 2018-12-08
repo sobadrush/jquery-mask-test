@@ -1,0 +1,26 @@
+
+【jQuery.ajaxSetup() 方法设置全局 AJAX 默认选项】
+http://www.w3school.com.cn/jquery/ajax_ajaxsetup.asp
+https://blog.csdn.net/szstephenzhou/article/details/39318415
+
+【jQuery ajax 參數說明】
+http://www.w3school.com.cn/jquery/ajax_ajax.asp
+
+【jquery beforeSend】
+https://www.jianshu.com/p/f05606e3121c
+https://blog.csdn.net/xr510002594/article/details/81409426
+https://www.jianshu.com/p/bf049b410d9c
+
+【img垂直置中】
+https://stackoverflow.com/questions/7273338/how-to-vertically-align-an-image-inside-a-div
+
+【Mask whole page when execute jQuery post?】
+https://stackoverflow.com/questions/13181912/mask-whole-page-when-execute-jquery-post
+https://blog.csdn.net/weixin_35751376/article/details/70314831
+
+【jqeury Error function】
+https://stackoverflow.com/questions/6792878/jquery-ajax-error-function
+
+【】
+【】
+【】
